@@ -1,3 +1,4 @@
+/* styling for navbar */
 .menubar {
     background-color: rgb(66, 66, 66);
     height: 80px;
@@ -57,13 +58,7 @@ background-color: rgb(38, 146, 146);
     margin-top: 50px;
   }
 
-  .addForm {
-    border:3px solid indigo;
-    width: 20%;
-    height: 500px;
-    margin-top: 50px;
-    
-  }
+
 
   .mainPage {
     display: flex;
@@ -71,4 +66,29 @@ background-color: rgb(38, 146, 146);
     border: none;
     max-height: fit-content;
     justify-content: space-evenly;
+  }
+  
+  /* styling for form elements */
+  .Form {
+    border:3px solid indigo;
+    width: 20%;
+    height: 500px;
+    margin-top: 50px;
+    padding: 10px;
+    
+  }
+
+  .addList {
+    /* border: 2px solid green; */
+    margin: 5px ;
+    margin-top: 20px;
+    height: 50px;
+    text-align: center;
+  }
+
+
+  /* Styling for list */
+  .listImage {
+    height: fit-content;
+    width: 240px;
   }

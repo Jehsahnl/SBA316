@@ -17,12 +17,80 @@
 
    <div class="mainPage">
      <!-- list area -->
-     <div class="lists">
+     <section class="lists">
+            <div class="listItem">
+                <ul id="items">
+                    <li>
+                        <img src="C:\Users\Jehsahn\Documents\!PerScholas\DOM_Intro\SBA316\ET Dark.jpg" alt="Movie Image" class="listImage">
+                    </li>
+                    <div class="listInfo">
+                        <h3 class="listTitle"> </h3>
+                    </div>
+                    <!-- Next Item -->
+                </ul>
+                
+            </div>
+            
+        </section>
 
-     </div>
+
+
+
 
      <!-- form to add to list -->
-      <div class="addForm"></div>
+      <div class="Form">
+       <form action="" id="addForm">
+        <!-- title -->
+            <div class="addList">
+                <label>Title:</label>
+                <input type="text" id="inputTitle">
+            </div>
+
+            <!-- category -->
+            <div class="addList">
+                <label>Category:</label>
+                <select name="category" id="inputCat">
+                    <option value="Movie">Movie</option>
+                    <option value="Game">Video Game</option>
+                    <option value="Show">TV Show</option>
+                </select>
+            </div>
+
+            <!-- watched or not -->
+            <div class="addList">
+                <label>Watched:</label>
+                <select name="watch" id="inputWatch">
+                    <option value="watched">Watched</option>
+                    <option value="notWatched">Haven't Watched</option>
+                </select>
+            </div>
+
+            <!-- start date -->
+            <div class="addList">
+                <label>Date Started:</label>
+                <input type="date" id="inputStart">
+            </div>
+
+            <!-- end date -->
+            <div class="addList">
+                <label>Date Finished: </label>
+                <input type="date" id="inputEnd">
+            </div>
+            
+             <!-- comment for retrospectives -->
+             <div class="addList">
+                <label>Review:</label>
+                <input type="text" id="inputEnd">
+            </div>
+            <!-- submit -->
+            <button id="smt">Submit</button>
+
+       </form>
+      </div>
+
+        
+
    </div>
+   <script src="SBA.js"></script>
 </body>
 </html>
