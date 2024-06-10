@@ -1,0 +1,74 @@
+.menubar {
+    background-color: rgb(66, 66, 66);
+    height: 80px;
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 5%;
+}
+
+.logo {
+    color: rgb(241, 241, 241);
+    font-size: 40px;
+}
+
+.logo span {
+    color: rgb(96, 182, 231);
+}
+
+.menubar ul {
+    list-style: none;
+    display: flex;
+}
+
+.menubar ul li {
+    padding: 10px 30px;
+}
+
+.menubar ul li a {
+    color: white;
+    /* gets rid of underline in lists */
+    text-decoration: none;
+}
+    .menubar {
+        overflow: hidden;
+        background-color: #333;
+        font-family: Arial;
+    }
+
+    .navbtn {
+        background-color: rgb(96, 182, 231); /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  display: inline-block;
+  font-size: 16px;} 
+
+  .navbtn:hover {
+background-color: rgb(38, 146, 146);
+  }
+
+  .lists {
+    border: 3px solid red;
+    height: 1000px;
+    width: 70%;
+    margin-top: 50px;
+  }
+
+  .addForm {
+    border:3px solid indigo;
+    width: 20%;
+    height: 500px;
+    margin-top: 50px;
+    
+  }
+
+  .mainPage {
+    display: flex;
+    flex-wrap:wrap;
+    border: none;
+    max-height: fit-content;
+    justify-content: space-evenly;
+  }
